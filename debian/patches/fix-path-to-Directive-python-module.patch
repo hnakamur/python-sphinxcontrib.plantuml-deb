@@ -1,0 +1,20 @@
+Description: Fix path to Directive python module
+Author: Thomas Goirand <zigo@debian.org>
+Bug-Debian: https://bugs.debian.org/896312
+Forwarded: no
+Last-Update: 2018-04-25
+
+--- python-sphinxcontrib.plantuml-0.5.orig/sphinxcontrib/plantuml.py
++++ python-sphinxcontrib.plantuml-0.5/sphinxcontrib/plantuml.py
+@@ -16,7 +16,10 @@ except ImportError:  # Python<2.5
+ from docutils import nodes
+ from docutils.parsers.rst import directives
+ from sphinx.errors import SphinxError
+-from sphinx.util.compat import Directive
++try:
++    from sphinx.util.compat import Directive
++except ImportError:
++    from docutils.parsers.rst import Directive
+ from sphinx.util.osutil import ensuredir, ENOENT
+ 
+ try:

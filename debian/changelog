@@ -1,0 +1,51 @@
+python-sphinxcontrib.plantuml (0.5-5) unstable; urgency=medium
+
+  * Fix path to Directive module so it works in Sphinx 1.7 (Closes:#896312).
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 25 Apr 2018 16:46:00 +0200
+
+python-sphinxcontrib.plantuml (0.5-4) unstable; urgency=medium
+
+  * Add runtime sphinx depends (Closes: #896372, #896312).
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 21 Apr 2018 14:56:54 +0000
+
+python-sphinxcontrib.plantuml (0.5-3) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+
+  [ Thomas Goirand ]
+  * Add missing dh-python build-depends.
+  * Removed useless versions of (build-)depends.
+  * Standards-Version is now 4.1.3.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 02 Apr 2018 17:46:08 +0200
+
+python-sphinxcontrib.plantuml (0.5-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ondřej Nový ]
+  * Fixed VCS URLs (https).
+  * Add plantuml to depends (Closes: #851049)
+  * Updating standards version to 4.1.1.
+  * Bump debhelper compat level to 10
+  * d/copyright: Reorder
+  * d/watch: Use https
+
+  [ Daniel Baumann ]
+  * Updating vcs fields.
+  * Updating copyright format url.
+  * Updating maintainer field.
+  * Running wrap-and-sort -bast.
+  * Removing gbp.conf, not used anymore or should be specified in the
+    developers dotfiles.
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 07 Nov 2017 23:09:29 +0100
+
+python-sphinxcontrib.plantuml (0.5-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #767522)
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 01 Nov 2014 00:41:10 +0800

@@ -1,0 +1,3 @@
+version=3
+https://pypi.python.org/packages/source/s/sphinxcontrib-plantuml sphinxcontrib-plantuml-(.*).tar.gz
+
