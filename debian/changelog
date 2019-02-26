@@ -1,3 +1,9 @@
+python-sphinxcontrib.plantuml (0.5-5ubuntu1ppa1~18.04.1) bionic; urgency=medium
+
+  * Backport to Ubuntu 18.04 LTS
+
+ -- Hiroaki Nakamura <hnakamur@gmail.com>  Tue, 26 Feb 2019 11:53:47 +0900
+
 python-sphinxcontrib.plantuml (0.5-5) unstable; urgency=medium
 
   * Fix path to Directive module so it works in Sphinx 1.7 (Closes:#896312).
